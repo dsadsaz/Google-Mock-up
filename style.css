@@ -1,0 +1,133 @@
+#adv-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.list-inline-item {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 5px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 213px;
+   
+}
+
+.logo img {
+    width: 272px;
+    height: 92px;
+}
+
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    width: 582px;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    max-width: 584px;
+
+}
+
+.search-bar input:focus {
+    outline: none;
+}
+
+
+.search-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.search-btn input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    margin-left: 10px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.adv-logo {
+    position: absolute;
+    top: 5px;
+ 
+}
+
+.adv-logo img {
+    width: 74px;
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.red-h2 {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.red-h2 h2 {
+    font-family: arial,sans-serif;
+    font-size: 20px;
+    color: #d93025;
+}
+
+.Find-adv {
+    margin: 45px;
+}
+.Find-adv p {
+    font-family: arial,sans-serif;
+    font-size: 16px;
+}
+
+.big-form {
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+}
+
+.left-part {
+    width: 200px;
+    margin-right: 4px;
+}
+
+.right-part{
+    width: 600px;
+    padding: 10px;
+}
+.adv-btn {
+display: flex;
+justify-content: flex-end;
+width: 850px;
+}
+.adv-btn input {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
